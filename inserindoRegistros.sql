@@ -52,3 +52,17 @@ WHERE PRODUTO = '544931';
 UPDATE produto 
 SET EMBALAGEM = 'Garrafa'
 WHERE PRODUTO = '1078680';
+
+SELECT * FROM produto;
+
+-- alterando dados já inseridos na tabela de vendedores:
+
+UPDATE vendedor
+SET PERCENTUAL_COMISSAO = 0.11
+WHERE MATRICULA = '00236';
+
+UPDATE vendedor
+SET NOME = 'José Geraldo da Fonseca Junior'
+WHERE MATRICULA = '00233';
+
+SELECT * FROM vendedor;
