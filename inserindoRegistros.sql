@@ -35,3 +35,20 @@ INSERT INTO vendedor (MATRICULA, NOME, PERCENTUAL_COMISSAO)
 VALUES
 ('00235', 'Márcio Almeida Silva', 0.08),
 ('00236', 'Cláudia Morais', 0.08);
+
+-- inserindo mais dados na tabela produtos e alterando (corrigindo) os valores:
+
+USE sucos;
+
+INSERT INTO produto(PRODUTO, NOME, EMBALAGEM, TAMANHO, SABOR, PRECO_LISTA)
+VALUES
+('544931', 'Frescor do Verão - 350 ml - Limão', 'PET', '350 ml','Limão',3.20),
+('1078680', 'Frescor do Verão - 470 ml - Manga', 'Lata', '470 ml','Manga',5.18);
+
+UPDATE produto
+SET EMBALAGEM = 'Lata', PRECO_LISTA = 2.46
+WHERE PRODUTO = '544931';
+
+UPDATE produto 
+SET EMBALAGEM = 'Garrafa'
+WHERE PRODUTO = '1078680';
