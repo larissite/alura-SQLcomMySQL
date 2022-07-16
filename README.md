@@ -1,2 +1,11 @@
-# alura-SQLcomMySQL
-Repositório para os códigos desenvolvidos durante o curso "SQL com MySQL: manipule e consulte dados" da Formação" SQL com MySQL Server da Oracle", da Alura
+##  Introdução ao SQL com MYSQL
+
+Este repositório contém os códigos dos exemplos e exercícios desenvolvidos durante o curso **"SQL com MySQL: manipule e consulte dados"**, da Alura.
+
+É um curso voltando para iniciantes com primeiro contato com banco de dados e a linguagem SQL. <br>
+Todos os códigos foram executados no MYSQL Workbench, instalado no início do curso.
+
+O Certificado de Conclusão pode ser visualizado [aqui](https://cursos.alura.com.br/certificate/a8855733-7381-4882-9bd2-24539d04dfdc).
+
+
+
